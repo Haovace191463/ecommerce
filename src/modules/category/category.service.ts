@@ -5,8 +5,8 @@ import { UpdateCategoryDto } from "./dto/update-category";
 @Injectable()
 export class CategoryService {
     private category = [
-    { id: 1, categoryName: 'Iphone', description: 'Electronic devices and accessories', isActive: true },
-    { id: 2, categoryName: 'Samsung', description: 'Apparel and fashion items', isActive: true }
+    { id: 1, categoryName: 'Smartphones', description: 'Electronic devices and accessories', isActive: true },
+    { id: 2, categoryName: 'Laptops', description: 'Electronic devices and accessories', isActive: true }
   ];
 
     create(createCategoryDto: CreateCategoryDto) { 
